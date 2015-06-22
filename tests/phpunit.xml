@@ -1,0 +1,13 @@
+<phpunit bootstrap="./Bootstrap.php" colors="true" >
+    <testsuite name="Scraper Test Suite">
+        <directory>./Unit</directory>
+        <directory>./Functional</directory>
+    </testsuite>
+
+    <groups>
+        <exclude>
+            <group>disable</group>
+        </exclude>
+    </groups>
+
+</phpunit>
